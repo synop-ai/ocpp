@@ -11,7 +11,7 @@ OCPP
 ----
 
 Python package implementing the JSON version of the Open Charge Point Protocol
-(OCPP). Currently OCPP 1.6 (errata v4), OCPP 2.0.1 (Edition 2 FINAL, 2022-12-15)
+(OCPP). Currently OCPP 1.6 (errata v4), OCPP 2.0.1 (Edition 2 FINAL, 2022-12-15 and Edition 3 errata 2024-11)
 are supported.
 
 You can find the documentation on `rtd`_.
@@ -203,6 +203,14 @@ To lower the logs for this package only use the following code:
   logging.getLogger('ocpp').setLevel(level=logging.DEBUG)
   logging.getLogger('ocpp').addHandler(logging.StreamHandler())
 
+Aknowledgements
+---------------
+
+Till the end of 2024, this project has been lead and maintained by `Auke Oosterhoff`_ and
+`Jared Newell`_. We thank them for work their work! 
+
+Since than, the project is lead by `Chad Meadowcroft`_, `Mohit Jain`_ and `Patrick Roelke`_.
+
 License
 -------
 
@@ -217,3 +225,9 @@ Attribution-NoDerivatives 4.0 International Public License.
 .. _rtd: https://ocpp.readthedocs.io/en/latest/index.html
 .. _The Mobility House: https://www.mobilityhouse.com/int_en/
 .. _websockets: https://pypi.org/project/websockets/
+
+.. _Auke Oosterhoff:  https://github.com/orangetux
+.. _Jared Newell: https://github.com/Jared-Newell-Mobility
+.. _Chad Meadowcroft: https://github.com/mdwcrft
+.. _Mohit Jain: https://github.com/jainmohit2001
+.. _Patrick Roelke: https://github.com/proelke
